@@ -29,3 +29,6 @@ I didn't know how to check if an html element has a certain class so I used goog
 ## In this project:
 
 - You can click on the notifications to make them 'read' or 'unread' and the notifications number will update according to how many unread messages you have.
+
+## Live site URL: 
+https://dlxzeus777.github.io/Notifications-page/
