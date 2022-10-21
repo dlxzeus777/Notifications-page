@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 40rem;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.notification-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.read
+{
+    cursor: pointer;
+}
+
+.name
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name p{
+    margin-bottom: 0;
+}
+
+.img-box img{
+    width: 50px;
+    height: 50px;
+}
+
+.messages-container
+{
+    padding: 1rem;
+    margin-bottom: .5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.unread
+{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.dm
+{
+    padding: 1rem;
+    border: 1px solid grey;
+}
+
+.name .img-box
+{
+    align-self: flex-start;
+}
+
+.username
+{
+    margin-top: 0;
+}
+.kimberly-img img
+{
+    height: 50px;
+    width: 50px;
+}
+.wrapper
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.kimberly .name
+{
+    justify-content: space-between;
+}
+
+.notifications
+{
+    padding: .2rem .5rem;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1rem;
+}
+h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tournament
+{
+    font-weight: 700;
+    color: grey;
+}
+.chess
+{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+}
+.date
+{
+    margin-top: .2rem;
+}
+
+@media (max-width: 732px) {
+    body{
+        padding: .5rem;
+    }
+    .container
+    {
+        width: 21rem;
+        padding: 1rem;
+        font-size: .8rem;
+        margin: 0;
+    }
+    .header h2 
+    {
+        font-size: 1rem;
+    }
+    .read
+    {
+        font-size: .7rem;
+    }
+    .notifications
+    {
+        margin-left: .5rem;
+    }
+  }
